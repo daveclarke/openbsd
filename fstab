@@ -1,10 +1,10 @@
 b9c47644b0420a47.b none swap sw
-b9c47644b0420a47.a / ffs rw 1 1
-b9c47644b0420a47.l /home ffs rw,nodev,nosuid 1 2
-b9c47644b0420a47.d /tmp ffs rw,nodev,nosuid 1 2
-b9c47644b0420a47.f /usr ffs rw,nodev 1 2
-b9c47644b0420a47.g /usr/X11R6 ffs rw,nodev 1 2
-b9c47644b0420a47.h /usr/local ffs rw,wxallowed,nodev 1 2
-b9c47644b0420a47.k /usr/obj ffs rw,nodev,nosuid 1 2
-b9c47644b0420a47.j /usr/src ffs rw,nodev,nosuid 1 2
-b9c47644b0420a47.e /var ffs rw,nodev,nosuid 1 2
+b9c47644b0420a47.a / ffs rw,softdep,noatime 1 1
+b9c47644b0420a47.l /home ffs rw,softdep,noatime,nodev,nosuid 1 2
+b9c47644b0420a47.d /tmp ffs rw,softdep,noatime,nodev,nosuid 1 2
+b9c47644b0420a47.f /usr ffs rw,softdep,noatime,nodev 1 2
+b9c47644b0420a47.g /usr/X11R6 ffs rw,softdep,noatime,nodev 1 2
+b9c47644b0420a47.h /usr/local ffs rw,softdep,noatime,wxallowed,nodev 1 2
+b9c47644b0420a47.k /usr/obj ffs rw,softdep,noatime,nodev,nosuid 1 2
+b9c47644b0420a47.j /usr/src ffs rw,softdep,noatime,nodev,nosuid 1 2
+b9c47644b0420a47.e /var ffs rw,softdep,noatime,nodev,nosuid 1 2
