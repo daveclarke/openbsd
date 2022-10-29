@@ -21,4 +21,6 @@ LANG= xclock -strftime "%a %e %b %Y %H:%M" &
 xset b off
 
 # start cwm!
+xterm -geometry 84x50+1+1 &
+xterm -geometry 84x50+600+1 &
 exec cwm
