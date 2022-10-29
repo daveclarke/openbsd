@@ -1,0 +1,56 @@
+! === fonts
+Xft.autohint  : 0
+Xft.lcdfilter : lcddefault
+Xft.hintstyle : hintslight
+Xft.hinting   : 1
+Xft.antialias : 1
+Xft.rgba      : rgb
+! fixed is the one true font ?
+*font         : -misc-fixed-medium-r-semicondensed-*-13-*-*-*-*-*-iso10646-1
+
+! === xidle
+XIdle*position : sw
+XIdle*delay    : 1
+XIdle*timeout  : 300
+
+! === xlock
+! turn off backlight
+XLock.dpmsoff     : 1
+! white-on-black lock
+XLock.description : off
+XLock.echokeys    : off
+XLock.info        : 
+XLock.background  : black
+XLock.foreground  : white
+XLock.mode        : blank
+XLock.username    : username:
+XLock.password    : password:
+XLock.font        : -misc-fixed-medium-r-semicondensed-*-13-*-*-*-*-*-iso10646-1
+XLock.planfont    : -misc-fixed-medium-r-semicondensed-*-13-*-*-*-*-*-iso10646-1
+
+! === xterm
+! remove additional black border
+XTerm*borderWidth            : 0
+XTerm*internalBorder         : 2
+! set 256 colours
+XTerm*termName               : xterm-256color
+! make alt key work normally
+XTerm*vt100.metaSendsEscape  : true
+! save 10240 lines scrollback
+XTerm*vt100.saveLines        : 10240
+! terminal bell
+XTerm*vt100.bellIsUrgent     : true
+! no bold fonts
+XTerm*allowBoldFonts         : false
+! no fullscreen
+XTerm*fullscreen             : never
+! click line select from current work forward
+XTerm*cutToBeginningOfLine   : false
+! and no newline
+XTerm*cutNewLine             : false
+! black magic 
+XTerm*charClass              : 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+! select word on two clicks
+XTerm*on2Clicks              : word
+! whole line on three
+XTerm*on3Clicks              : line
