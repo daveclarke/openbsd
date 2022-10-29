@@ -9,7 +9,7 @@ Xft.rgba      : rgb
 ! XTerm*font         : -misc-fixed-medium-r-semicondensed-*-16-*-*-*-*-*-iso10646-1
 XTerm*faceName: Luxi Mono
 XTerm*faceSize: 6
-XTerm*geometry: 80x60
+XTerm*geometry: 84x50
 
 ! ===== xidle
 ! drag pointer to lower left corner to lock screen
