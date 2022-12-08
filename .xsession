@@ -22,5 +22,5 @@ xset b off
 
 # start cwm!
 xterm -geometry 96x50+1+1 &
-xterm -geometry 96x50+680+1 &
+xterm -geometry 96x50+684+1 &
 exec cwm
